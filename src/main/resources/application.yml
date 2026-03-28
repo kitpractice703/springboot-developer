@@ -14,12 +14,12 @@ spring:
       client:
         registration:
           google:
-            client-id: ${GOOGLE_CLIENT_ID}
-            client-secret: ${GOOGLE_CLIENT_SECRET}
+            client-id: test_id
+            client-secret: test_secret
             scope:
               - email
               - profile
 
 jwt:
   issuer: kitpractice703@gmail.com
-  secret_key: study-springboot
+  secret_key: test_key
